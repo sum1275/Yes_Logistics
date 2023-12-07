@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div className="py-16 bg-white">
       <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-        <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+      <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12 mb-8 md:mb-12">
           <div className="md:w-5/12 lg:w-5/12 relative shadow-lg p-4 mb-4">
             <Slider {...settings} className="slider-container pb-1">
               {images.map((image, index) => (
@@ -43,6 +43,18 @@ export default function Home() {
                 </div>
               ))}
             </Slider>
+
+            <style>
+    {`
+      .slider-container {
+        padding-bottom: 1rem; /* Adjust the value as needed */
+      }
+
+      .slick-dots {
+        margin-bottom: 1.5rem; /* Adjust the value as needed */
+      }
+    `}
+  </style>
           </div>
           <div className="md:7/12 lg:w-6/12">
             <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">

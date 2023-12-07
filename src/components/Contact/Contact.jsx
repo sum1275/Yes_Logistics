@@ -99,7 +99,7 @@ export default function Contact() {
               title="Google Map"
               width="600"
               height="450"
-              loading="lazy"
+          
               allowFullScreen
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.894251771908!2d72.83038127241532!3d18.936074317121548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1dbeb72004f%3A0xf6229eb27a005524!2sPrinting%20House%2C%20Police%20Ct%20Ln%2C%20Borabazar%20Precinct%2C%20Ballard%20Estate%2C%20Fort%2C%20Mumbai%2C%20Maharashtra%20400001!5e0!3m2!1sen!2sin!4v1701796591118!5m2!1sen!2sin"
             ></iframe>
